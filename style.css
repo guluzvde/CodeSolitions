@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: rgb(52, 114, 212);
+}
+.container{
+    height: 100vh;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    background-color: goldenrod;
+    padding: 2rem 2rem;
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+}
+a{
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
